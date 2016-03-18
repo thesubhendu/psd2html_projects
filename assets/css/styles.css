@@ -1,0 +1,265 @@
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+/*====================================HEADER_SECTION==============================*/
+
+.imgholder{
+    background: url(../img/headerbg.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 800px;
+    width:100%;
+    
+    
+    
+}
+.hero{
+    padding-top: 200px;
+    
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.fa{
+    margin: 30px;
+}
+.social .fa{
+    margin: 0;
+}
+
+.btn-danger{
+    width: 200px;
+    border-radius: 3px;
+        
+    
+}
+
+/*============================================== NEWDESIGN1 Section============================*/
+
+.sideimg{
+    background: url(../img/newd1img.jpg);
+/*    overflow: hidden;*/
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    
+}
+.sidetext{
+    height: 600px;
+    padding: 200px 100px 100px 100px;
+}
+
+
+
+/*===== ===============================Awesome features 1 Section=========================================*/
+
+.feature1{
+    padding: 130px 150px;
+    background: url(../img/afbg1.jpg);
+    background-size: cover;
+  
+}
+
+.redtext{
+    color: #ff6666;
+    font-size: 0.9em;
+    position: relative;
+    top: 20px;
+    margin: 0;
+}
+.toptext{
+    margin: 130px auto 90px auto;
+}
+
+
+/*=======================================Description Section=============================*/
+
+.dimg{
+    background: url(../img/dimg.jpg);
+    background-size: cover;
+    height: 500px;
+/*    width: 100%;*/
+    
+}
+.dtext{
+    padding: 100px 150px 100px 50px;
+}
+
+/*=============================================Clients==============================*/
+.cimg{
+    background: url(../img/cimg.jpg);
+    background-size: cover;
+/*    height: 650px;*/
+    padding-bottom: 100px;
+    
+    
+}
+.ctext{
+    padding-top: 200px;
+}
+.ctext .ccomment{
+    color: grey;
+    
+}
+.ctext .cname{
+    color: azure;
+}
+.ctext .cposition{
+    color: firebrick;
+}
+.cpic{
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    
+}
+
+/*==========================Browser section=================================*/
+.feature2 .container-fluid{
+    background: url(../img/browserimg.jpg);
+    background-size: cover;
+    height: auto;
+    
+    
+}
+.f2text{
+    padding: 100px 375px 300px 430px;
+}
+
+/*===========================================Try now section========================*/
+
+.tform .form-group{
+    margin-right: 20px;
+    margin-top: 90px;
+}
+.trailtext{
+    padding: 94px 300px 0px 300px;
+}
+.terms{
+    padding-top: 40px;
+}
+.timg{
+    background: url(../img/timg.jpg);
+    height: auto;
+    background-position: center;
+}
+.f2heading{
+    color: white;
+}
+.tform .form-control{
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+/*=============================================================Footer section============================*/
+
+.fform .btn{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    
+    
+}
+.fform .form-control{
+    width: 215px;
+    height: 50px;
+}
+.fa-paper-plane-o{
+   position: relative;
+    bottom: 18px;
+    right: 20px;
+    color: ghostwhite;
+
+}
+.footer h5{
+    font-weight: bold;
+    font-size: 20px
+}
+.footer{
+    padding: 50px;
+}
+
+.social{
+    margin-top: 10px;
+    padding-right: 120px;
+}
+.social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-right: 2px;
+    
+}
+
+
+/*=============================================================Media queries===========================*/
+
+
+@media (max-width:768px){
+  
+/*    trail section*/
+    .trailtext{
+    padding:50px ;
+}
+    
+    .tform .form-group{
+    margin-right: 10px;
+    margin-top: 30px;
+}
+/*    Client section*/
+    .ctext{
+    padding-top: auto;
+    padding-bottom: 200px;
+}
+    /*Browser Section(or feature2)*/
+     
+      .f2text{
+    padding: 20px;
+    
+}
+    .feature2 .container-fluid{
+        padding: 20px 100px 300px 100px;
+    }
+    
+/*    footer*/
+    
+    .fform .form-control{
+/*        position: relative;*/
+/*        bottom: 65px;*/
+/*        left: 150px;*/
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        
+        
+       
+    }
+    .fform .btn{
+        display: inline-block;
+        width:  50px;
+        height: 50px;
+    }
+    
+    .fform .form-group{
+        display: inline-block;
+    }
+/*    .fform .btn{*/
+/*        display: inline;*/
+/*}*/
+    }
+/*    .fform .form-group{*/
+/*        padding-left: 100px;*/
+        
+       
+    
+    
+   
